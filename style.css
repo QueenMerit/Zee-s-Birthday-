@@ -1,0 +1,104 @@
+body{
+    margin-top:10px;
+    font-family: 'Happy Monkey', cursive;
+    text-align:center;
+    color:#ffffff;
+    background:linear-gradient(#efb0c9, #ca8554);
+}
+
+#zee{
+    width:150px;
+    border-radius:50%;
+    border:5px solid #ca8554;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    text-shadow:0 0 1px black;
+}
+
+h1{
+    font-size:23px;
+}
+
+#bday-age{
+    background:#ca8554;
+    padding:3px 6px;
+    border-radius:5px;
+    margin:10px 0 10px 0;
+    font-size:16px;
+}
+
+#bday-date{
+    background:#ca8554;
+    padding:3px 6px;
+    margin-top:0px;
+    border-radius:5px;
+    font-size:12px;
+}
+
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#gift-section{
+    margin-top:50px;
+}
+
+.gift-cover{
+    width:300px;
+    height:400px;
+    margin:0 auto;
+    background-image:url("gift.png");
+    background-size:cover;
+    filter:drop-shadow(0 0 5px black);
+}
+
+#gift-cover-happy:hover{
+    background-image: url("happy.webp");
+    background-size:cover;
+}
+
+#gift-cover-wish:hover{
+    background-image: url("wish.webp");
+    background-size:cover;
+}
+
+#gift-cover-cake:hover{
+    background-image: url("cake.webp");
+    background-size:cover;
+}
+
+#video-section{
+    width:300px;
+    height:350px;
+    margin:50px auto;
+    border-radius:10px;
+    border:6px solid #efb0c9;
+    box-shadow:0 0 7px black;
+}
+
+
+.gift-title{
+    font-size:16px;
+}
+
+.gift-hint{
+    font-size:14px;
+}
+
+#footer{
+    font-size:12px;
+    font-style:italic;
+    font-weight:bolder;
+    margin: 0px auto 20px auto;
+}
+
+a{
+    color:white;
+}
+
+/*<img src="gift.png" alt="gift cover" class="gift-cover">
+
+*/
